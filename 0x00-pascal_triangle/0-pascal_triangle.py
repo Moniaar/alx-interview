@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+"""A module to build a triangle for any kind of input given"""
+
+
 def pascal_triangle(n):
     """Returns a list of lists of integers representing Pascal's triangle of n."""
     if n <= 0:
