@@ -1,5 +1,5 @@
 # N Queens Problem: Concept
-### Mathematics and Computer Science Context:
+### In the Mathematics and Computer Science Context:
 
 ## Mathematics Perspective:
 
@@ -11,3 +11,18 @@ The problem's significance lies in its combinatorial nature and the insights it 
 In computer science, the N Queens problem is often used to illustrate the concept of backtracking, a general algorithmic technique for solving constraint satisfaction problems.
 Backtracking involves exploring possible solutions and abandoning them ("backtracking") if they do not satisfy the problem's constraints.
 The N Queens problem is a canonical example used to teach recursive algorithms, constraint propagation, and the importance of efficient search strategies in solving complex problems.
+
+## Explanation:
+### Input Validation:
+The program starts by checking if the correct number of arguments is provided. If not, it prints a usage message and exits with a status of 1. It then checks if the provided argument is an integer and if it is greater than or equal to 4. If not, it prints an appropriate error message and exits.
+### Backtracking Approach:
+is_safe function: Checks if a queen can be placed on the board at a given position without being attacked.
+solve_nqueens_util function: Recursively tries to place queens column by column. If it successfully places queens in all columns, it adds the solution to the list.
+solve_nqueens function: Initializes the board and calls the utility function to find all solutions.
+Output:
+
+The program prints each solution as a list of coordinate pairs, where each pair represents the position of a queen on the board.
+## Usage:
+
+To run the program, use the command line to navigate to the directory containing the script and run: 
+```python nqueens.py N``` Replace N with the desired board size (must be an integer greater than or equal to 4).
