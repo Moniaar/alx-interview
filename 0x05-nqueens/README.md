@@ -1,5 +1,5 @@
 # N Queens Problem: Concept
-### Mathematics and Computer Science Context:
+### In the Mathematics and Computer Science Context:
 
 ## Mathematics Perspective:
 
