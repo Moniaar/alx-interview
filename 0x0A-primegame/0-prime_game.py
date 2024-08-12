@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+"""Module for Prime game """
+
+
 def sieve_of_eratosthenes(max_n):
     """Generates a list where the index represents the number
         and the value at each index indicates whether it is prime"""
